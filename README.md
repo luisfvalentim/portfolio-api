@@ -1,4 +1,4 @@
-# TaskFlow API 🚀
+# TaskFlow API 
 
 API REST desenvolvida com **Node.js, Express e PostgreSQL**, com arquitetura em camadas e suporte a filtros, paginação e ordenação.
 
@@ -17,4 +17,22 @@ Projeto criado como base para aplicação Full Stack (React + Node).
 
 ---
 
-## 📂 Arquitetura
+## 📂 Estrutura do Projeto
+
+```
+src/
+server.js
+db.js
+routes/
+controllers/
+services/
+repositories/
+```
+
+## Arquitetura em camadas:
+
+- **Routes** → definição das rotas HTTP  
+- **Controller** → manipulação de request/response  
+- **Service** → regras de negócio  
+- **Repository** → acesso ao banco de dados  
+- **Database** → PostgreSQL
